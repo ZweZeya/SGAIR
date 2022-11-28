@@ -1,0 +1,53 @@
+/* General Elements */
+body {
+    background-color: #F2E5E5;
+    background-image: url("axiom-pattern.png");
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Layout Elements */
+.layout-body {
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation Elements */
+.nav-main {
+    display: flex;
+    align-items: center;
+    background-color: #CE7777;
+    padding: 1rem;
+}
+
+.nav-brand {
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.4rem;
+}
+
+.nav-items {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+/* Home Elements */
+.home-description {
+    width: 450px;
+}
+
+/* Chart Elements */
+.chart-main {
+    background-color: #CE7777;
+    margin: 2rem;
+}
+
+
